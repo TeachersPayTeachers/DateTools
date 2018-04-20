@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
                      :tag => "v#{s.version.to_s}" }
 
   s.platforms = { :ios => '7.0', :osx => '10.7' }
+  s.swift_version = '3.3'
 
   s.requires_arc = true
 
